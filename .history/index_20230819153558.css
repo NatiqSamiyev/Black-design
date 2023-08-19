@@ -10,8 +10,7 @@
   padding: 50px 171px 41px 122px;
   background-color: #000;
    min-height: 100vh; 
-   position: relative;
-
+ display: flex;
 }
 
 .box-1 img {
@@ -19,11 +18,10 @@
   height: 68px;
 }
 .top-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: red;
+  disp
 }
-.box-1  ul {
+.top-container ul {
   display: flex;
   margin-top: 28px;
 }
@@ -32,12 +30,14 @@
   list-style-type: none;
 }
 
-.box-1  li img {
+.top-container li img {
   width: 33px;
   height: 33px;
 }
 
-
+.box-2 {
+  margin-left: auto;
+}
 
 .box-2 ul li {
   display: flex;
@@ -49,15 +49,15 @@
   margin-right: 22px;
 }
 
-.top-container .box-1 ul li:nth-child(2) {
+.top-container ul li:nth-child(2) {
   margin-left: 18px;
 }
 
-.top-container .box-1 ul li:nth-child(3) {
+.top-container ul li:nth-child(3) {
   margin-left: 21px;
 }
 
-.top-container .box-1 ul li:last-child {
+.top-container ul li:last-child {
   margin-left: 25px;
 }
 
@@ -76,7 +76,7 @@
 
 .bottom-container {
   position: absolute;
-  bottom: 41px;
+  margin-top: 277px;
 }
 
 .bottom-container p {
